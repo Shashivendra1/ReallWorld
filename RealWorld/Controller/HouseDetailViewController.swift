@@ -61,7 +61,7 @@ class HouseDetailViewController: BaseViewController, UICollectionViewDelegate, U
     
     var houseDetail : HomeData?
     var price = ""
-    
+
     
     override func viewDidLoad()  {
         super.viewDidLoad()
