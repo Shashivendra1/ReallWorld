@@ -26,10 +26,10 @@
             filePath = "RealWorld/Controller/HomeScreenViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2269"
-            endingLineNumber = "2269"
-            landmarkName = "tap_call_btn(sender:)"
-            landmarkType = "7">
+            startingLineNumber = "2345"
+            endingLineNumber = "2345"
+            landmarkName = "HomeScreenViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -131,22 +131,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "24D99BD9-AF98-450F-9242-35411E6F6254"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RealWorld/Controller/HomeScreenViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2273"
-            endingLineNumber = "2273"
-            landmarkName = "tap_call_btn(sender:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "43023DCA-5289-451F-8D9C-AB530FC68A72"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -218,10 +202,58 @@
             filePath = "RealWorld/Controller/HomeScreenViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2252"
-            endingLineNumber = "2252"
-            landmarkName = "tap_call_btn(sender:)"
-            landmarkType = "7">
+            startingLineNumber = "2328"
+            endingLineNumber = "2328"
+            landmarkName = "HomeScreenViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33D6FDD6-C993-4AA2-BDE8-40488C89D0AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealWorld/Controller/HomeScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2349"
+            endingLineNumber = "2349"
+            landmarkName = "HomeScreenViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "33D6FDD6-C993-4AA2-BDE8-40488C89D0AE - 4335b4622a077cbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReallWorld.HomeScreenViewController.tap_share_btn(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "ReallWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shashivendrasengar/Desktop/ReallWorld_2023/ReallWorld/RealWorld/Controller/HomeScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2350"
+                  endingLineNumber = "2350"
+                  offsetFromSymbolStart = "6192">
+               </Location>
+               <Location
+                  uuid = "33D6FDD6-C993-4AA2-BDE8-40488C89D0AE - 4335b4622a077cbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReallWorld.HomeScreenViewController.tap_share_btn(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "ReallWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shashivendrasengar/Desktop/ReallWorld_2023/ReallWorld/RealWorld/Controller/HomeScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2350"
+                  endingLineNumber = "2350"
+                  offsetFromSymbolStart = "8639">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

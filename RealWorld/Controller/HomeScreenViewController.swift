@@ -2203,6 +2203,45 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource 
     
     
     @objc func tap_whatsapp_btn(sender : UIButton) {
+        
+            
+            if self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile == "Available for premium users"
+            {
+                chkphone = "1"
+                let arr =  ["Available for premium users"]
+                phonearr = arr
+                // let text = arr.firstIndex(of: "Available for premium users")
+                //phonearr.append(arr.first ?? "")
+                // phonearr.append(text)
+                phonetable_view.reloadData()
+                phone_view.isHidden = false
+                // picker_view.isHidden = false
+                phonetable_view.isHidden = false
+                
+                selectnumberlbl.isHidden = false
+            }
+            else
+            {
+                // print(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile as Any)
+                let phone = "\(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile ?? "")"
+                let mobile = "\(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].alternativeNumber ?? "")"
+                
+                phonearr = phone.components(separatedBy: ", ")
+                phonearr.append(mobile)
+                phonenumberWhatsApp = "\(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile ?? "")"
+                chkphone = "1"
+                phonetable_view.reloadData()
+                
+                phone_view.isHidden = false
+                // picker_view.isHidden = false
+                phonetable_view.isHidden = false
+                
+                selectnumberlbl.isHidden = false
+            }
+            
+        }
+    
+    /*
         phone_view.isHidden = true
 
         if self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile == "Available for premium users"
@@ -2217,16 +2256,17 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource 
             phone_view.isHidden = false
             // picker_view.isHidden = false
             phonetable_view.isHidden = false
-            
+
             selectnumberlbl.isHidden = false
         }
         else
         {
 
+
             // print(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile as Any)
             let phone = "\(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile ?? "")"
             let mobile = "\(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].alternativeNumber ?? "")"
-            
+
 //            phonearr = phone.components(separatedBy: "," )
 //            phonearr.append(phone)
 //            phonearr.append(mobile)
@@ -2236,19 +2276,18 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource 
             phonearr.removeAll(where: { $0 == "" })
 
             phonetable_view.reloadData()
-            
+
             phone_view.isHidden = false
             // picker_view.isHidden = false
             phonetable_view.isHidden = false
-            
+
             selectnumberlbl.isHidden = false
         }
         
     }
-    
+    */
     @objc func tap_call_btn(sender : UIButton) {
-        phone_view.isHidden = false
-
+        
         if self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile == "Available for premium users"
         {
             chkphone = "1"
@@ -2266,6 +2305,43 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource 
         }
         else
         {
+            let phone = "\(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile ?? "")"
+            let mobile = "\(self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].alternativeNumber ?? "")"
+            phonearr = phone.components(separatedBy: ", ")
+            phonearr.append(mobile)
+            chkphone = "2"
+            
+            phonetable_view.reloadData()
+            phone_view.isHidden = false
+            // picker_view.isHidden = false
+            phonetable_view.isHidden = false
+            
+            selectnumberlbl.isHidden = false
+        }
+        
+        
+        
+    }
+    /*
+        phone_view.isHidden = false
+
+        if self.homeScreenModel?.first?.data?[(sender as AnyObject).tag].mobile == "Available for premium users"
+        {
+            chkphone = "1"
+            let arr =  ["Available for premium users"]
+            phonearr = arr
+            // let text = arr.firstIndex(of: "Available for premium users")
+            //phonearr.append(arr.first ?? "")
+            // phonearr.append(text)
+            phonetable_view.reloadData()
+            phone_view.isHidden = false
+            // picker_view.isHidden = false
+            phonetable_view.isHidden = false
+
+            selectnumberlbl.isHidden = false
+        }
+        else
+        {
             let index = sender.tag
             let phone = "\(self.homeScreenModel?.first?.data?[index].mobile ?? "")"
             let mobile = "\(self.homeScreenModel?.first?.data?[index].alternativeNumber ?? "")"
@@ -2273,20 +2349,20 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource 
             phonearr.append(mobile)
             phonearr.append(phone)
             phonearr.joined(separator: ",")
-            
+
             chkphone = "2"
             phonearr.removeAll(where: { $0 == "" })
 
             phonetable_view.reloadData()
-            
+
             phone_view.isHidden = false
             phonetable_view.isHidden = false
-            
+
             selectnumberlbl.isHidden = false
         }
-        
+
     }
-    
+    */
     @objc func tap_comment_btn(sender : UIButton) {
         phone_view.isHidden = true
 
