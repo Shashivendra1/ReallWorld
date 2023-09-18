@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.1.0)
+  - BSImagePicker (3.3.1)
+  - IQKeyboardManagerSwift (6.5.5)
+  - NVActivityIndicatorView (4.0.1):
+    - NVActivityIndicatorView/Presenter (= 4.0.1)
+  - NVActivityIndicatorView/Presenter (4.0.1)
+  - OpalImagePicker (3.0.0)
+  - RangeSeekSlider (1.8.0)
+  - SDWebImage (5.7.3):
+    - SDWebImage/Core (= 5.7.3)
+  - SDWebImage/Core (5.7.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - BSImagePicker (~> 3.1)
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - OpalImagePicker
+  - RangeSeekSlider
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BSImagePicker
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - OpalImagePicker
+    - RangeSeekSlider
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  BSImagePicker: 0fe04b574d4d6b81093785d2af6c26227efc8428
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
+  OpalImagePicker: 38e772dd93a54431fc516b33e1f337c50f745834
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
+  SDWebImage: 97351f6582ceca541ea294ba66a1fcb342a331c2
+
+PODFILE CHECKSUM: 03956c4b714348b63f8feb1169061fc86bfaa6e6
+
+COCOAPODS: 1.12.1
